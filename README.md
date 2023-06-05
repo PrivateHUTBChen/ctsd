@@ -22,5 +22,17 @@ pip install pystan
 conda install -c conda-forge fbprophet
 ```
 
+代码运行时报以下错误可参考该[issue](https://github.com/facebook/Ax/issues/1126)：
+
+```
+requires ax-platform be installed
+```
+
+解决办法
+
+```
+pip install gpytorch==1.8
+```
+
 遇到其他错误可在官方文档的issues里面搜索。
 

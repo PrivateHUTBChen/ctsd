@@ -5,18 +5,19 @@
 
 #### 环境配置
 
-参照kats官方文档：
+建议使用python==3.8
 
 ```
 pip install kats
 ```
 
-##### 错误
+##### 错误解决
 
 出现fbprophet错误，可参照[博客](https://blog.csdn.net/baidu_35108799/article/details/121383359)。
 
 ```
 conda install -c anaconda ephem
+# 安装pystan的版本应为2.19.1.1
 pip install pystan
 conda install -c conda-forge fbprophet
 ```

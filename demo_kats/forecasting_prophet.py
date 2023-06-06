@@ -2,6 +2,7 @@ import pandas as pd
 
 from kats.consts import TimeSeriesData
 from kats.models.prophet import ProphetModel, ProphetParams
+import matplotlib.pyplot as plt
 
 # take `air_passengers` data as an example
 air_passengers_df = pd.read_csv(
@@ -12,6 +13,10 @@ air_passengers_df = pd.read_csv(
 
 # convert to TimeSeriesData object
 air_passengers_ts = TimeSeriesData(air_passengers_df)
+
+# plotting origin data
+air_passengers_ts.plot()
+plt.show()
 
 # create a model param instance
 params = ProphetParams(seasonality_mode='multiplicative')  # additive mode gives worse results
@@ -24,3 +29,6 @@ m.fit()
 
 # make prediction for next 30 month
 fcst = m.predict(steps=30, freq="MS")
+
+m.plot()
+plt.show()

@@ -1,7 +1,10 @@
 # ctsd
-#### 描述
+
+### 描述
 
 利用[kats](https://github.com/facebookresearch/Kats)进行时序数据预测。
+
+kats使用教程可参见[tutorials](https://github.com/PrivateHUTBChen/ctsd/tree/main/tutorials)及[demo_kats](https://github.com/PrivateHUTBChen/ctsd/tree/main/demo_kats)。
 
 #### 环境配置
 
@@ -11,7 +14,7 @@
 pip install kats
 ```
 
-##### 错误解决
+#### 错误解决
 
 出现fbprophet错误，可参照[博客](https://blog.csdn.net/baidu_35108799/article/details/121383359)。
 
@@ -28,11 +31,7 @@ conda install -c conda-forge fbprophet
 requires ax-platform be installed
 ```
 
-解决办法
 
-```
-pip install gpytorch==1.8
-```
 
 遇到其他错误可在官方文档的issues里面搜索。
 

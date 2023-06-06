@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # take `air_passengers` data as an example
 air_passengers_df = pd.read_csv(
-    r"D:\Downloads\BrowserDownloads\kats-0.2.0\kats\data\\air_passengers.csv",
+    "../data/air_passengers.csv",
     header=0,
     names=["time", "passengers"],
 )

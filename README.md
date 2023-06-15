@@ -19,13 +19,32 @@
 
 ## 贡献指南
 
-本项目为AIOps团队共用项目，在进行更改之前，请阅读[贡献指南](https://github.com/OpenHUTB/bazaar/blob/master/CONTRIBUTING.md)文档。
+本项目为AIOps团队共用项目，在进行更改之前，请阅读以下内容。
+
+### 本地检查`Pull requests`请求
+
+有人发送`Pull requests`时，可以在 GitHub 上合并之前[测试并验证更改](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally)。
+
+### 开源项目管理
+
+#### git管理
+
+以下方式可二选其一，也可相辅相成：
+
+- [命令管理](https://blog.csdn.net/weixin_45682261/article/details/124003706)；
+- 工具管理：利用可视化工具[TortoiseGit](https://blog.csdn.net/xwnxwn/article/details/108694863)进行项目管理。
+
+#### 代码提交
+
+先进行本地提交（参考可视化工具管理），然后[推送到开源仓库](https://zhuanlan.zhihu.com/p/23457016)。
 
 ## 环境配置
 
 ### 包导入
 
-建议使用python==3.8
+创建环境时建议使用的python为3.8。
+
+建议采用anaconda导入kats：
 
 ```
 pip install kats

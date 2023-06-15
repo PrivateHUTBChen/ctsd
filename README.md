@@ -29,7 +29,7 @@
 
 #### git管理
 
-以下方式可二选其一，也可相辅相成：
+以下方式可二选一，也可相辅相成：
 
 - [命令管理](https://blog.csdn.net/weixin_45682261/article/details/124003706)；
 - 工具管理：利用可视化工具[TortoiseGit](https://blog.csdn.net/xwnxwn/article/details/108694863)进行项目管理。
